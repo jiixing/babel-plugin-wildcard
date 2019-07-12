@@ -1,4 +1,3 @@
-lib
 
 # Logs
 logs
@@ -37,3 +36,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+
+.idea/
+# change test.js to just use this folder for testing new code
+test/fixture/*
