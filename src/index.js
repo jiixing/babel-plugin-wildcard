@@ -173,7 +173,7 @@ export default function (babel) {
                         } else {
                             name = "./" + _path.join(src, file);
                         }
-
+                        name = name.replace('\\','/')
                         // Special behavior if 'filterNames'
                         if (filterNames.length > 0) {
                             let importDeclaration = t.importDeclaration(
